@@ -11,6 +11,8 @@ public class UserInput {
 		double c = scanner.nextDouble(); // 스캐너 객체의 nextInt() 메소드로 정수값을 입력
 		double f = (c * 9/5) + 32; // 화씨
 		
+		scanner.close();
+		
 		System.out.println("섭씨 " +c+"는 화씨 " +f+ "이다.");
 	
 	}
