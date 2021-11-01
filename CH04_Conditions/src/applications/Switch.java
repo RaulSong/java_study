@@ -4,7 +4,7 @@ public class Switch {
 
 	public static void main(String[] args) {
 		// Switch¹®
-		int option = 9;
+		int option = 3;
 		
 		switch(option) {
 		case 0:

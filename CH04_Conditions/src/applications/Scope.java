@@ -19,6 +19,7 @@ public class Scope {
 		
 		Scanner scanner = new Scanner(System.in);
 		
+		String input = "";
 		do {
 			System.out.println("종료하려면 'q' 입력");
 			input = scanner.nextLine();
